@@ -82,3 +82,5 @@ slideNavigation.forEach((arrow) => {
 });
 
 dots.forEach((dot) => dot.addEventListener('click', dotTrigger));
+
+setInterval(slideImage, 5000, 1);
